@@ -1,0 +1,39 @@
+.sedgwick-ave-display-regular-2 {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #2F4F4F;
+  font-size: 40px;
+}
+
+.home-detail {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    background-color: #8FBC8F;
+    border: 10px solid whitesmoke;
+    width: 800px;
+    height: 910px;
+    vertical-align: top;
+}
+
+.marketing-questions {
+    vertical-align: top;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.base-body-div {
+    background-color: #2F4F4F;
+}
+
+.base-body {
+    background-color: #2F4F4F;
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+}

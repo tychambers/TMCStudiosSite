@@ -1,0 +1,80 @@
+.about-page {
+    background-color: dimgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.navbar-space {
+    height: 50px;
+}
+
+.sedgwick-ave-display-regular {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: whitesmoke;
+  font-size: 40px;
+}
+
+.about-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8FBC8F;
+    margin-bottom: 100px;
+}
+
+.about-text {
+    color: #2F4F4F;
+    text-align: center;
+    font-size: large;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pro-image {
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-top: 10px;
+    height: auto;
+}
+
+.about-me-detail {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    background-color: #8FBC8F;
+    border: 10px solid whitesmoke;
+    width: 800px;
+    height: 700px;
+}
+
+.about-me-detail-2 {
+    margin-top: 10px;
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    background-color: #8FBC8F;
+    border: 10px solid whitesmoke;
+    width: 800px;
+    height: 200px;
+}
+
+.about-header-text {
+    display: flex;
+    justify-content: center;
+}
+
+.green-span {
+    color: #2F4F4F;
+}
+
+.bottom {
+    height: 100px;
+}

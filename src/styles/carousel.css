@@ -1,0 +1,57 @@
+.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+img {
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    object-position: 0 0;
+}
+
+.carousel-button {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    background-color: #2F4F4F;
+    border: none;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.left-button {
+    visibility: hidden;
+}
+
+.progress-bar {
+    display: flex;
+    justify-content: center;
+    height: 4px;
+}
+
+.bar-one {
+    background-color: #808080;
+    opacity: 0.7;
+    width: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.bar-two {
+    background-color: #808080;
+    opacity: 0.7;
+    width: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.bar-three {
+    background-color: #808080;
+    opacity: 0.7;
+    width: 30px;
+    margin-right: 5px;
+    margin-left: 5px;
+}

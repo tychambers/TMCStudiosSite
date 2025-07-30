@@ -1,0 +1,23 @@
+.home-page {
+    background-color: dimgray;
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.navbar-space {
+    height: 50px;
+}
+
+p {
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.project-cards {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
