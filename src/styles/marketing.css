@@ -37,3 +37,61 @@
     margin-right: 10px;
     font-size: 30px;
 }
+
+@media (max-width: 480px) {
+    .home-detail {
+        display: block;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+        background-color: #8FBC8F;
+        border: 10px solid whitesmoke;
+        width: 400px;
+        height: 500px;
+    }
+    .sedgwick-ave-display-regular-2 {
+        font-size: 20px;
+    }
+
+    .base-body {
+        background-color: #2F4F4F;
+        color: whitesmoke;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 20px;
+        width: 390x;
+    }
+
+    .base-body-div {
+        width: 400px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .home-detail {
+        display: block;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+        background-color: #8FBC8F;
+        border: 10px solid whitesmoke;
+        width: 400px;
+        height: 320px;
+    }
+    .sedgwick-ave-display-regular-2 {
+        font-size: 15px;
+    }
+
+    .base-body {
+        background-color: #2F4F4F;
+        color: whitesmoke;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 15px;
+        width: 390x;
+    }
+
+    .base-body-div {
+        width: 400px;
+    }
+}

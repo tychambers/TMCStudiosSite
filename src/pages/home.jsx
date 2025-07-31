@@ -8,7 +8,7 @@ function Home() {
                 <h1>Looking for a Developer?</h1>
             </div>
             <div className='home-detail'>
-                <p className="marketing-questions sedgwick-ave-display-regular-2">
+                <p className="marketing-questions">
                     Do you need a website for your small business or project?
                     Have you ever had an idea for an app, but don't know how to build it?
                     Are you interested in getting into development, but don't know where to get started?
@@ -16,7 +16,7 @@ function Home() {
                 <div className="base-body-div">
                     <p className="base-body">If you said yes to any of these questions TMCStudios can help. TMCStudios is a group of freelance developers interested in helping clients with their business needs and personal projects. We have the technical skills that YOU want to build websites, GUI applications or iOS apps. Below is a list of services we provide:</p>
                 </div>
-                <ul className="sedgwick-ave-display-regular-2">
+                <ul className="white-font">
                     <li>Website creation</li>
                     <li>App Development</li>
                     <li>Consulting and Mentorship</li>

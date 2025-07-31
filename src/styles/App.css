@@ -1,3 +1,11 @@
 .base-background {
   background-color: gray;
 }
+
+@media (max-width: 480px) {
+  .base-background {
+    max-width: 480;
+    width: 480;
+  }
+
+}

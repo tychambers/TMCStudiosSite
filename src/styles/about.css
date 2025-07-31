@@ -10,6 +10,10 @@
     height: 50px;
 }
 
+.white-font {
+    color: whitesmoke;
+}
+
 .sedgwick-ave-display-regular {
   font-family: "Sedgwick Ave Display", cursive;
   font-weight: 400;
@@ -77,4 +81,90 @@
 
 .bottom {
     height: 100px;
+}
+
+@media (max-width: 480px) {
+    .sedgwick-ave-display-regular {
+        font-size: 5px;
+    }
+
+    .about-title {
+        display: flex;
+        justify-content: center;
+        background-color: #8FBC8F;
+        text-align: center;
+        margin-bottom: 50px;
+        width: 480px;
+    }
+
+    .about-page {
+        width: 480px;
+    }
+
+    .about-me-detail {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        background-color: #8FBC8F;
+        border: 10px solid whitesmoke;
+        width: 380px;
+        height: 600px;
+    }
+
+    .about-me-detail-2 {
+        margin-top: 10px;
+        display: block;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        background-color: #8FBC8F;
+        border: 10px solid whitesmoke;
+        width: 380px;
+        height: 125px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .sedgwick-ave-display-regular {
+        font-size: 20px;
+    }
+
+    .about-title {
+        display: flex;
+        justify-content: center;
+        background-color: #8FBC8F;
+        text-align: center;
+        margin-bottom: 50px;
+        width: 768px;
+    }
+
+    .about-page {
+        width: 768px;
+    }
+
+    .about-me-detail {
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        background-color: #8FBC8F;
+        border: 10px solid whitesmoke;
+        width: 500px;
+        height: 600px;
+    }
+
+    .about-me-detail-2 {
+        margin-top: 10px;
+        display: block;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        background-color: #8FBC8F;
+        border: 10px solid whitesmoke;
+        width: 600px;
+        height: 250px;
+    }
 }

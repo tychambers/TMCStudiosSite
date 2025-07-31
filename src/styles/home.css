@@ -21,3 +21,23 @@ p {
     justify-content: center;
     gap: 60px;
 }
+
+@media (max-width: 480px) {
+    .home-page {
+        background-color: dimgray;
+        display: block;
+        height: 100%;
+        max-width: 480px;
+        width: 480px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .home-page {
+        background-color: dimgray;
+        display: block;
+        height: 100%;
+        max-width: 768px;
+        width: 768px;
+    }
+}
