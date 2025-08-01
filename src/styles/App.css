@@ -1,5 +1,5 @@
 .base-background {
-  background-color: gray;
+  background-color: dimgray;
 }
 
 @media (max-width: 480px) {

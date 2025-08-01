@@ -50,7 +50,11 @@
         font-weight: 400;
         font-style: normal;
         color: whitesmoke;
-        font-size: 20px;
+        font-size: 15px;
+    }
+    .navbar-links {
+        margin-left: 20px;
+        justify-content: flex-start;
     }
     .link {
         margin-right: 0px;

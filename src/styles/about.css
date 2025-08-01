@@ -10,8 +10,9 @@
     height: 50px;
 }
 
-.white-font {
-    color: whitesmoke;
+.green-font {
+    color: #2F4F4F;
+    font-size: 30px;
 }
 
 .sedgwick-ave-display-regular {
@@ -122,7 +123,7 @@
         background-color: #8FBC8F;
         border: 10px solid whitesmoke;
         width: 380px;
-        height: 125px;
+        height: 100px;
     }
 }
 

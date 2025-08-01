@@ -14,7 +14,7 @@
     background-color: #8FBC8F;
     border: 10px solid whitesmoke;
     width: 800px;
-    height: 910px;
+    height: 715px;
     vertical-align: top;
 }
 
@@ -27,9 +27,12 @@
 
 .base-body-div {
     background-color: #2F4F4F;
+    text-align: center;
 }
 
 .base-body {
+    display: flex;
+    justify-content: center;
     background-color: #2F4F4F;
     color: whitesmoke;
     text-align: center;
@@ -47,10 +50,14 @@
         background-color: #8FBC8F;
         border: 10px solid whitesmoke;
         width: 400px;
-        height: 500px;
+        height: 380px;
     }
     .sedgwick-ave-display-regular-2 {
         font-size: 20px;
+    }
+
+    .green-font {
+        font-size: 15px;
     }
 
     .base-body {
@@ -79,6 +86,10 @@
         height: 320px;
     }
     .sedgwick-ave-display-regular-2 {
+        font-size: 15px;
+    }
+
+    .green-font {
         font-size: 15px;
     }
 
