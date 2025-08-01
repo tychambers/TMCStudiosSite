@@ -6,7 +6,7 @@ function Contact() {
     <div className='about-page'>
             <div className='navbar-space' />
             <div className='about-title sedgwick-ave-display-regular'>
-                <h1>Contact</h1>
+                <h1 className='title'>Contact</h1>
             </div>
             <div className='about-me-detail-2'>
                 <p className='about-header-text sedgwick-ave-display-regular'>Email:  <span className='green-span'>tylerm.chambers92@gmail.com</span></p>

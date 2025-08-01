@@ -11,10 +11,7 @@ function Projects() {
     <div className='home-page'>
         <div className="navbar-space" />
         <div className='about-title sedgwick-ave-display-regular'>
-                <h1>Projects</h1>
-        </div>
-        <div>
-            <p></p>
+                <h1 className='title'>Projects</h1>
         </div>
         <div className='project-cards'>
             <ProjectCard />

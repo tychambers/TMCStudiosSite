@@ -7,7 +7,7 @@ function About() {
     <div className='about-page'>
         <div className='navbar-space' />
         <div className='about-title sedgwick-ave-display-regular'>
-            <h1>About</h1>
+            <h1 className='title'>About</h1>
         </div>
         <div className='about-me-detail'>
             <div className='professional-image'>

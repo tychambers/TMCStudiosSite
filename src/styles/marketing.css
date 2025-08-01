@@ -45,22 +45,24 @@
     .home-detail {
         display: block;
         flex-direction: column;
-        margin: auto;
-        text-align: center;
+        margin: 0;
+        text-align: left;
+        margin-left: 10px;
         background-color: #8FBC8F;
         border: 10px solid whitesmoke;
         width: 400px;
-        height: 380px;
+        height: 550px;
     }
     .sedgwick-ave-display-regular-2 {
         font-size: 20px;
     }
 
     .green-font {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .base-body {
+        padding: 15px;
         background-color: #2F4F4F;
         color: whitesmoke;
         margin-left: 5px;
@@ -83,7 +85,7 @@
         background-color: #8FBC8F;
         border: 10px solid whitesmoke;
         width: 400px;
-        height: 320px;
+        height: 330px;
     }
     .sedgwick-ave-display-regular-2 {
         font-size: 15px;

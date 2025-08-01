@@ -86,16 +86,20 @@
 
 @media (max-width: 480px) {
     .sedgwick-ave-display-regular {
-        font-size: 5px;
+        font-size: 25px;
     }
 
     .about-title {
         display: flex;
-        justify-content: center;
+        justify-content: left;
         background-color: #8FBC8F;
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
         width: 480px;
+    }
+
+    .title {
+        margin-left: 15px;
     }
 
     .about-page {
@@ -105,9 +109,10 @@
     .about-me-detail {
         margin-top: 10px;
         display: flex;
-        justify-content: center;
+        justify-content: left;
         flex-direction: column;
-        margin: auto;
+        margin: 0;
+        margin-left: 10px;
         background-color: #8FBC8F;
         border: 10px solid whitesmoke;
         width: 380px;
@@ -117,9 +122,10 @@
     .about-me-detail-2 {
         margin-top: 10px;
         display: block;
-        justify-content: center;
+        justify-content: left;
         flex-direction: column;
-        margin: auto;
+        margin: 0;
+        margin-left: 10px;
         background-color: #8FBC8F;
         border: 10px solid whitesmoke;
         width: 380px;

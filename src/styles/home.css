@@ -30,6 +30,14 @@ p {
         max-width: 480px;
         width: 480px;
     }
+
+    .project-cards {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: left;
+        gap: 10px;
+    }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {

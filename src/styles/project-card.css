@@ -28,3 +28,9 @@
     margin-top: 20px;
     gap: 100px;
 }
+
+@media (max-width: 480) {
+    .sedgwick-ave-display-regular {
+        font-size: 20px;
+    }
+}
