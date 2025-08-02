@@ -15,11 +15,11 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/TMCStudiosSite" element={<Home />} />
-          <Route path="/TMCStudiosSite" element={<Home />} />
-          <Route path="/TMCStudiosSite/projects" element={<Projects />} />
-          <Route path="/TMCStudiosSite/about" element={<About />} />
-          <Route path="/TMCStudiosSite/contact" element={<Contact />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
     </Router>
     </div>

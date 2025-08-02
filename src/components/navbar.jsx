@@ -11,19 +11,19 @@ const Navbar = () => {
   const navigate = useNavigate()
 
   const handleGoToAbout = () => {
-    navigate('/TMCStudiosSite/about'); // Navigates to the /about path
+    navigate('/about'); // Navigates to the /about path
   };
 
   const handleGoToProjects = () => {
-    navigate('/TMCStudiosSite/projects'); 
+    navigate('/projects'); 
   };
 
   const handleGoToContact = () => {
-    navigate('/TMCStudiosSite/contact'); 
+    navigate('/contact'); 
   };
 
   const handleGoToHome = () => {
-    navigate('/TMCStudiosSite');
+    navigate('/');
   };
       return (
         <nav className="navbar">
