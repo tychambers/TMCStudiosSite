@@ -43,7 +43,7 @@
 @media (max-width: 480px) {
     .navbar {
         height: 50px;
-        width: 480px;
+        width: 100%;
     }
     .sedgwick-ave-display-regular {
         font-family: "Sedgwick Ave Display", cursive;
@@ -53,8 +53,8 @@
         font-size: 15px;
     }
     .navbar-links {
-        margin-left: 20px;
-        justify-content: flex-start;
+        margin-left: 10px;
+        justify-content: flex-end;
     }
     .link {
         margin-right: 0px;

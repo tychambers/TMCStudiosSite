@@ -441,3 +441,115 @@ textarea {
     height: 40px;
  }
 
+ @media (min-width: 481px) and (max-width: 768px) {
+    input {
+        width: 70%;
+    }
+    textarea {
+        width: 70%;
+    }
+ }
+
+ @media (max-width: 480px) {
+    input {
+        width: 70%;
+    }
+    textarea {
+        width: 70%;
+    }
+    .contact-page-new {
+    grid-template-columns: .5fr 200px repeat(3, .5fr) .5fr;
+    grid-template-rows: repeat(5, 1fr) 10px repeat(4, 1fr);
+    }
+    .contact-form {
+    grid-area: 2 / 2 / 10 / 3;
+    }
+
+    /* about */
+    .about-title-new {
+        grid-template-columns: .5fr repeat(4, 1fr);
+    }
+    .libre-baskerville-regular-white {
+        font-size: 35px;
+    }
+    .schibsted-grotesk-white {
+        font-size: 12px;
+    }
+    .about-mission {
+        display: grid;
+        grid-template-columns: .05fr 1.5fr 1fr .05fr;
+        grid-template-rows: repeat(3, 1fr) 1fr .5fr .5fr .10fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        background-color: whitesmoke;
+    }
+    .bungee-green {
+        font-size: 20px;
+    }
+    .playwrite-fr-moderne-thin-black {
+        font-size: 15px;
+    }
+    .mission-body {
+    grid-area: 5 / 2 / 6 / 4; 
+    }
+
+    /* home */
+    .libre-baskerville-regular {
+        font-size: 35px;
+    }
+    .bungee-regular {
+        font-size: 25px;
+    }
+    .schibsted-grotesk-test {
+        font-size: 15px;
+    }
+    .home-title {
+        grid-template-columns: .25fr repeat(3, 1fr) .25fr;
+    }
+    .home-body-one {
+        grid-template-columns: .01fr repeat(2, 1fr) .25fr;
+    }
+    .outfit-bold {
+        font-size: 20px;
+    }
+    .playwrite-fr-moderne-thin {
+        font-size: 15px;
+    }
+    .schibsted-grotesk-test-two {
+        font-size: 15px;
+    }
+    .blurb-three {
+        grid-area: 3 / 2 / 4 / 5; 
+    }
+    .home-body-two {
+        grid-template-columns: .1fr repeat(4, 1fr);
+        grid-template-rows: 1fr repeat(2, 1fr) 2fr 1fr 4fr 1fr;
+        grid-column-gap: 30px;
+        margin-bottom: 20px;
+    }
+    .ad-box-one {
+    grid-area: 6 / 2 / 6 / 4;
+    }
+    .ad-box-two {
+    grid-area: 6 / 4 / 6 / 6;
+    }
+    .ad-box-three {
+    grid-area: 8 / 2 / 9 / 4;
+    }
+    .ad-box-four {
+    grid-area: 8 / 4 / 9 / 6;
+    }
+    .outfit-bold-black {
+        font-size: 25px;
+    }
+    .ad-box-title {
+        font-size: 20px;
+    }
+    .ad-box-subtitle {
+        font-size: 15px;
+    }
+    .ad-box-body {
+        font-size: 12px;
+    }
+}
+

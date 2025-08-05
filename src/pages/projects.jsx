@@ -17,7 +17,7 @@ function Projects() {
             <ProjectCard />
             <MonsterCard />
             <DjangoSiteCard />
-            <ScriptsCard styles={'margin-bottom: 15px'} />
+            <ScriptsCard />
         </div>
         <div className="footer">
                 Copyright TMCStudios LLC | Site Design by Tyler Chambers

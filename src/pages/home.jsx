@@ -1,4 +1,3 @@
-import "../styles/marketing.css"
 import "../styles/styles.css"
 
 function Home() {
