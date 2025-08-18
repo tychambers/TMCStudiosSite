@@ -22,6 +22,10 @@ p {
     gap: 60px;
 }
 
+.space-at-bottom {
+    height: 100px;
+}
+
 @media (max-width: 480px) {
     .home-page {
         background-color: dimgray;

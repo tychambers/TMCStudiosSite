@@ -6,6 +6,11 @@
     padding: 10px 10px;
 }
 
+card:hover {
+    transform: scale(1.25);
+    border: 2px solid white;
+}
+
 .card-title {
     text-align: center;
 }
