@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './styles/App.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as HashRouter, Routes, Route } from 'react-router-dom';
 import Projects from './pages/projects';
 import About from './pages/about';
 import Contact from './pages/contact';
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className="base-background">
-      <Router>
+      <HashRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -21,7 +21,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-    </Router>
+    </HashRouter>
     </div>
   )
 }
